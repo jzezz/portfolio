@@ -5,37 +5,38 @@ import { GraduationCap, Award, Calendar } from "lucide-react";
 
 const education = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    location: "Stanford, CA",
-    year: "2014 - 2016",
-    gpa: "3.8/4.0",
-    description: "Specialized in Machine Learning and Distributed Systems. Thesis on 'Optimizing Real-time Data Processing in Cloud Environments'.",
+    degree: "PhD in Electronics and Telecommunication ",
+    institution: "Vel Tech rangarajan sagunthala R&D Institute of Science and Technology",
+    location: "Chennai",
+    year: "pursuing",
+    gpa: "--",
+    description: "electronnics and telecommunication with specialization",
+
     coursework: [
-      "Advanced Algorithms",
-      "Machine Learning",
-      "Distributed Systems",
-      "Database Systems",
-      "Software Engineering"
+      ,
+      "Embedded Systems",
+      "Digital Signal Processing",
+      "Wireless Communication",
     ],
     honors: ["Dean's List", "Research Excellence Award"]
   },
   {
-    degree: "Bachelor of Science in Software Engineering",
-    institution: "University of California, Berkeley",
-    location: "Berkeley, CA",
-    year: "2010 - 2014",
-    gpa: "3.7/4.0",
-    description: "Comprehensive foundation in software development, algorithms, and computer systems. Graduated Magna Cum Laude.",
+    degree: "Masters in Technical Education",
+    institution: "JNT University",
+    location: "Hyderabad",
+    year: "2016",
+    gpa: "78.04% ",
+    description: "masters degreee in VLSI system design",
     coursework: [
-      "Data Structures & Algorithms",
-      "Object-Oriented Programming",
-      "Computer Networks",
-      "Operating Systems",
-      "Web Development"
+      "VLSI",
+      "System design",
+      "Digital Electronics",
+      "Integrated Circuit Design",
+      
     ],
-    honors: ["Magna Cum Laude", "Beta Gamma Sigma Honor Society", "Outstanding Student Award"]
+    honors: ["published papers", "Outstanding Student Award"]
   }
+  
 ];
 
 const certifications = [
@@ -45,18 +46,7 @@ const certifications = [
     year: "2023",
     credentialId: "AWS-SAP-2023-001"
   },
-  {
-    name: "Certified Kubernetes Administrator",
-    issuer: "Cloud Native Computing Foundation",
-    year: "2022",
-    credentialId: "CKA-2022-456"
-  },
-  {
-    name: "Google Cloud Professional Cloud Architect",
-    issuer: "Google Cloud",
-    year: "2021",
-    credentialId: "GCP-PCA-2021-789"
-  }
+  
 ];
 
 const Education = () => {

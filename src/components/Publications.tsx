@@ -6,84 +6,35 @@ import { ExternalLink, FileText, Calendar, Users } from "lucide-react";
 
 const publications = [
   {
-    title: "Microservices Optimization in Cloud Environments: A Comprehensive Analysis",
+    title: "Design and Development of prototype of industrial robotics arm controlled by touch interface",
     type: "Research Paper",
-    venue: "International Conference on Software Engineering (ICSE)",
-    year: "2022",
-    authors: ["John Doe", "Jane Smith", "Robert Johnson"],
-    abstract: "This paper presents a novel approach to optimizing microservices architecture in cloud environments, focusing on resource allocation and performance enhancement. Our methodology shows a 35% improvement in system efficiency.",
-    citations: 150,
-    tags: ["Microservices", "Cloud Computing", "Performance Optimization"],
+    venue: "International Journal of Advanced Research in Science, Communication and Technology",
+    year: "2024",
+    authors: ["IJARSCT Team"],
+    abstract: "This paper present the design and development of a prototype industrial robotics arm controlled by a touch interface, focusing on enhancing user interaction and control precision.",
+    citations: 23,
+    tags: ["Robotics", "touch interface", "Prototype", "Industrial Automation"],
     link: "https://example.com/paper1",
     status: "Published"
   },
   {
-    title: "Real-time Data Processing at Scale: Lessons from Production Systems",
+    title: "Design and Development of AGV for enhancing hospitality",
     type: "Technical Article",
-    venue: "IEEE Software",
-    year: "2023",
-    authors: ["John Doe", "Alice Brown"],
-    abstract: "An in-depth analysis of real-time data processing challenges and solutions in large-scale production systems, including case studies from major tech companies.",
+    venue: "International Journal of Advanced Research in Science, Communication and Technology",
+    year: "2024",
+    authors: ["IJARSCT Team"],
+    abstract: "this paper enhances hospitality by designing and developing AGV.",
     citations: 89,
-    tags: ["Real-time Processing", "Big Data", "System Architecture"],
+    tags: ["AGV", "Hospitality", "Automation", "Service Robotics"],
     link: "https://example.com/article1",
     status: "Published"
   },
-  {
-    title: "Modern Frontend Architecture Patterns: A Developer's Guide",
-    type: "Blog Series",
-    venue: "Medium",
-    year: "2023",
-    authors: ["John Doe"],
-    abstract: "A comprehensive guide covering modern frontend architecture patterns, including micro-frontends, state management, and performance optimization techniques.",
-    citations: 45,
-    tags: ["Frontend", "Architecture", "JavaScript", "React"],
-    link: "https://example.com/blog1",
-    status: "Published"
-  },
-  {
-    title: "Kubernetes Security Best Practices: From Development to Production",
-    type: "Technical Report",
-    venue: "Cloud Native Computing Foundation",
-    year: "2022",
-    authors: ["John Doe", "Michael Chen", "Sarah Davis"],
-    abstract: "Comprehensive security guidelines for Kubernetes deployments, covering container security, network policies, and access control mechanisms.",
-    citations: 67,
-    tags: ["Kubernetes", "Security", "DevOps", "Container Security"],
-    link: "https://example.com/report1",
-    status: "Published"
-  },
-  {
-    title: "AI-Powered Code Review: Enhancing Developer Productivity",
-    type: "Research Paper",
-    venue: "International Symposium on Software Testing and Analysis",
-    year: "2023",
-    authors: ["John Doe", "Lisa Wang", "David Kim"],
-    abstract: "Investigation into AI-assisted code review systems and their impact on development velocity and code quality in enterprise environments.",
-    citations: 23,
-    tags: ["AI/ML", "Code Review", "Developer Tools", "Productivity"],
-    link: "https://example.com/paper2",
-    status: "Under Review"
-  },
-  {
-    title: "Building Resilient Distributed Systems: Patterns and Anti-patterns",
-    type: "Workshop Paper",
-    venue: "Distributed Systems Workshop",
-    year: "2021",
-    authors: ["John Doe", "Emma Thompson"],
-    abstract: "Exploration of design patterns and common pitfalls in building resilient distributed systems, with practical examples and case studies.",
-    citations: 34,
-    tags: ["Distributed Systems", "Resilience", "Design Patterns"],
-    link: "https://example.com/workshop1",
-    status: "Published"
-  }
 ];
 
 const publicationTypes = [
-  { type: "Research Paper", count: 3, color: "primary" },
+  { type: "Research Paper", count: 2, color: "primary" },
   { type: "Technical Article", count: 1, color: "accent" },
-  { type: "Blog Series", count: 1, color: "secondary" },
-  { type: "Technical Report", count: 1, color: "muted" }
+  
 ];
 
 const Publications = () => {
@@ -185,14 +136,8 @@ const Publications = () => {
                       </div>
 
                       <div className="flex items-center justify-between">
-                        <div className="text-sm text-muted-foreground">
-                          Citations: <span className="font-semibold text-foreground">{pub.citations}</span>
-                        </div>
-                        <Button variant="outline" size="sm" className="group/btn">
-                          <FileText className="h-3 w-3 mr-2" />
-                          Read Paper
-                          <ExternalLink className="h-3 w-3 ml-2 group-hover/btn:translate-x-1 transition-transform" />
-                        </Button>
+                        
+                        
                       </div>
                     </div>
                   </div>

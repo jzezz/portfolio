@@ -21,10 +21,9 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-xl font-bold gradient-text mb-3">John Doe</h3>
+            <h3 className="text-xl font-bold gradient-text mb-3">Archana Kotakar</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Senior Software Engineer passionate about building innovative solutions 
-              and sharing knowledge with the tech community.
+              Assisstant Professor and lab in charge . helping these future buds to bloom and prosper.
             </p>
           </motion.div>
 
@@ -69,29 +68,7 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h4 className="text-lg font-semibold mb-3">Connect</h4>
-            <div className="flex space-x-4 mb-4">
-              {socialLinks.map((social, index) => (
-                <motion.a
-                  key={index}
-                  href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-primary/20 transition-colors"
-                  whileHover={{ scale: 1.1, y: -2 }}
-                  whileTap={{ scale: 0.95 }}
-                  aria-label={social.label}
-                >
-                  <social.icon className="h-4 w-4" />
-                </motion.a>
-              ))}
-            </div>
-            <p className="text-sm text-muted-foreground">
-              <strong>Email:</strong> john.doe@email.com
-            </p>
-            <p className="text-sm text-muted-foreground">
-              <strong>Location:</strong> San Francisco, CA
-            </p>
+            
           </motion.div>
         </div>
 
@@ -103,20 +80,9 @@ const Footer = () => {
           viewport={{ once: true }}
           className="border-t border-border/50 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center"
         >
-          <div className="flex items-center space-x-1 text-sm text-muted-foreground mb-4 md:mb-0">
-            <span>© {currentYear} John Doe. Made with</span>
-            <motion.div
-              animate={{ scale: [1, 1.2, 1] }}
-              transition={{ duration: 1, repeat: Infinity, ease: "easeInOut" }}
-            >
-              <Heart className="h-4 w-4 text-red-500 fill-current" />
-            </motion.div>
-            <span>and lots of ☕</span>
-          </div>
           
-          <div className="text-sm text-muted-foreground">
-            Built with React, TypeScript & Framer Motion
-          </div>
+          
+          
         </motion.div>
       </div>
     </footer>

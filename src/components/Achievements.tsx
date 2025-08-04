@@ -6,65 +6,48 @@ import { Trophy, Star, Award, Users, Target, Zap } from "lucide-react";
 const achievements = [
   {
     icon: Trophy,
-    title: "Tech Innovation Award 2023",
-    organization: "TechCorp Inc.",
-    year: "2023",
-    description: "Recognized for developing an AI-powered analytics platform that increased customer engagement by 45% and reduced processing time by 60%.",
-    category: "Innovation",
-    level: "Company"
+    title: "College ARC center",
+    organization: "JSPM Jayawantrao College of Engineering",
+    year: "2024",
+    description: "worked for the college ARC center to help students with their projects and research.",
+    category: "Community Service",
+    level: "College"
   },
   {
     icon: Star,
-    title: "Best Paper Award",
-    organization: "International Conference on Software Engineering",
+    title: "College NAAC committee",
+    organization: "Rajiv Gandhi College of Engineering and Research",
     year: "2022",
-    description: "Published research on 'Microservices Optimization in Cloud Environments' which has been cited 150+ times in academic literature.",
+    description: "Contributed to the college NAAC committee to help improve the college's accreditation.",
     category: "Research",
-    level: "International"
+    level: "College"
   },
   {
     icon: Award,
-    title: "Outstanding Leadership Award",
-    organization: "StartupXYZ",
-    year: "2021",
-    description: "Led cross-functional team of 12 members to deliver a mission-critical project 3 weeks ahead of schedule, resulting in $2M additional revenue.",
+    title: "College NBA committee ",
+    organization: "JSPM Jayawantrao College of Engineering",
+    year: "2024",
+    description: "Contributed to the college NBA committee to help improve the college's accreditation.",
     category: "Leadership",
-    level: "Company"
+    level: "College"
   },
   {
     icon: Users,
-    title: "Team Excellence Award",
-    organization: "DigitalAgency",
-    year: "2020",
-    description: "Contributed to team achievement of highest client satisfaction score (4.9/5.0) and 100% project delivery rate for the fiscal year.",
+    title: "College Admission Committee",
+    organization: "JSPM Jayawantrao College of Engineering",
+    year: "2024",
+    description: "Assisted in the college admission process by guiding prospective students and parents.",
     category: "Teamwork",
-    level: "Company"
+    level: "College"
   },
-  {
-    icon: Target,
-    title: "Performance Excellence",
-    organization: "CodeStudio",
-    year: "2019",
-    description: "Consistently exceeded performance targets by 25% and was instrumental in securing 5 major client contracts worth $500K total.",
-    category: "Performance",
-    level: "Company"
-  },
-  {
-    icon: Zap,
-    title: "Innovation Hackathon Winner",
-    organization: "Regional Tech Summit",
-    year: "2018",
-    description: "Led team to first place in 48-hour hackathon with a real-time collaboration platform that was later acquired by a major tech company.",
-    category: "Innovation",
-    level: "Regional"
-  }
+  
 ];
 
 const stats = [
-  { number: "15+", label: "Awards Received", icon: Trophy },
-  { number: "150+", label: "Research Citations", icon: Star },
-  { number: "50+", label: "Projects Delivered", icon: Target },
-  { number: "98%", label: "Client Satisfaction", icon: Users }
+  { number: "7", label: "SPPU papers set", icon: Trophy },
+  { number: "2", label: "Papers Published", icon: Star },
+  { number: "6", label: "College Activity", icon: Target },
+  
 ];
 
 const Achievements = () => {
@@ -80,7 +63,7 @@ const Achievements = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">Achievements</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Recognition and milestones that showcase dedication to excellence and innovation in technology.
+            Recognition and milestones that showcase dedication to excellence and innovation.
           </p>
         </motion.div>
 

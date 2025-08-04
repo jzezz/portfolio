@@ -39,7 +39,7 @@ const Hero = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-5xl md:text-7xl font-bold mb-6"
           >
-            <span className="gradient-text">John Doe</span>
+            <span className="gradient-text">Archana Kotakar</span>
           </motion.h1>
 
           <motion.p
@@ -48,8 +48,7 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto"
           >
-            Senior Software Engineer & Tech Lead passionate about building 
-            innovative solutions and leading high-performing teams.
+            Assistant professor and lab in charge for Computer science deparetment at JSPM's JSCOE.
           </motion.p>
 
           <motion.div
@@ -58,10 +57,12 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <Button className="glow-primary group">
-              <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
-              Download Resume
-            </Button>
+            <a href= "/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <Button className="glow-primary group">
+                <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
+                Download Resume
+              </Button>
+            </a>
             <Button 
               variant="outline" 
               onClick={() => scrollToSection("#about")}

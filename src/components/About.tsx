@@ -3,20 +3,20 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Code, Users, Lightbulb, Target } from "lucide-react";
 
 const skills = [
-  "React", "TypeScript", "Node.js", "Python", "AWS", "Docker",
-  "Kubernetes", "PostgreSQL", "MongoDB", "GraphQL", "REST APIs", "Microservices"
+  "SQL", "MATLAB", "keil U vision", "Python", "C++", "Linux",
+  "Proteus Arduino", "PostgreSQL",
 ];
 
 const values = [
   {
     icon: Code,
     title: "Technical Excellence",
-    description: "Committed to writing clean, maintainable code and staying current with best practices."
+    description: "Comfortable and knowledgable about the technical skills I possese."
   },
   {
     icon: Users,
     title: "Team Leadership",
-    description: "Experienced in mentoring developers and fostering collaborative environments."
+    description: "Experienced in mentoring and fostering team building skills."
   },
   {
     icon: Lightbulb,
@@ -43,9 +43,8 @@ const About = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">About Me</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A passionate software engineer with over 8 years of experience building 
-            scalable applications and leading cross-functional teams to deliver 
-            innovative solutions.
+            A passionate teacher with over 14 years of experience in teaching engineering students
+            and help building the future of our country.
           </p>
         </motion.div>
 

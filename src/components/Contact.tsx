@@ -12,20 +12,20 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "john.doe@email.com",
-    href: "mailto:john.doe@email.com"
+    value: "archanakakade87@gmail.com",
+    href: "archanakakade87@gmail.com"
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567"
+    value: "+91 9561054447 ",
+    href: "tel: +919561054447 "
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
-    href: "https://maps.google.com/?q=San Francisco, CA"
+    value: "Ahmednagar, Maharashtra",
+    href: ""
   }
 ];
 
@@ -160,72 +160,12 @@ const Contact = () => {
             </Card>
 
             <Card className="glass-card">
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-6">Follow Me</h3>
-                <div className="flex space-x-4">
-                  {socialLinks.map((social, index) => (
-                    <motion.a
-                      key={index}
-                      href={social.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`w-12 h-12 rounded-lg bg-muted flex items-center justify-center text-muted-foreground transition-colors ${social.color}`}
-                      whileHover={{ scale: 1.1, y: -2 }}
-                      whileTap={{ scale: 0.95 }}
-                    >
-                      <social.icon className="h-5 w-5" />
-                    </motion.a>
-                  ))}
-                </div>
-              </CardContent>
+              
+              
             </Card>
 
             {/* Resume & CV Section */}
-            <Card className="glass-card">
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-6">Resume & CV</h3>
-                <div className="space-y-4">
-                  <Button 
-                    onClick={downloadResume}
-                    className="w-full glow-primary group"
-                  >
-                    <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
-                    Download Resume (PDF)
-                  </Button>
-                  
-                  <div className="border-2 border-dashed border-border rounded-lg p-4 text-center">
-                    <Label htmlFor="cv-upload" className="cursor-pointer">
-                      <div className="flex flex-col items-center space-y-2">
-                        <Upload className="h-8 w-8 text-muted-foreground" />
-                        <span className="text-sm text-muted-foreground">
-                          {uploadedCV ? uploadedCV.name : "Upload your CV (PDF/DOCX)"}
-                        </span>
-                      </div>
-                      <Input
-                        id="cv-upload"
-                        type="file"
-                        accept=".pdf,.docx"
-                        onChange={handleCVUpload}
-                        className="hidden"
-                      />
-                    </Label>
-                  </div>
-
-                  {uploadedCV && (
-                    <motion.div
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      className="p-3 bg-primary/10 rounded-lg"
-                    >
-                      <p className="text-sm text-primary">✓ CV uploaded successfully</p>
-                      <Button variant="outline" size="sm" className="mt-2">
-                        Preview CV
-                      </Button>
-                    </motion.div>
-                  )}
-                </div>
-              </CardContent>
-            </Card>
+            
           </motion.div>
 
           {/* Contact Form */}

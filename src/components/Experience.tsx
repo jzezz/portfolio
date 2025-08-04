@@ -2,62 +2,56 @@ import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CalendarDays, MapPin } from "lucide-react";
+import { a } from "node_modules/framer-motion/dist/types.d-Cjd591yU";
 
 const experiences = [
   {
-    title: "Senior Software Engineer",
-    company: "TechCorp Inc.",
-    location: "San Francisco, CA",
-    duration: "2022 - Present",
+    title: "JSPM Jayawantrao College of Engineering ",
+    company: "Computer Department",
+    location: "Pune",
+    duration: "2024 - Present",
     type: "Full-time",
-    description: "Leading a team of 5 developers building scalable microservices architecture. Increased system performance by 40% and reduced deployment time by 60%.",
-    technologies: ["React", "Node.js", "TypeScript", "AWS", "Docker", "Kubernetes"],
+    description: "Assistant Professor and lab in charge at computer department .",
+    technologies: ["Python", "Linux",  "C++"],
     achievements: [
-      "Architected and implemented new microservices reducing API response time by 40%",
-      "Mentored 3 junior developers and established code review processes",
-      "Led migration from monolith to microservices architecture"
+      "helped in multiple student projects and research papers",
+      "Mentored 2 SIH teams to help them build and present their projects",
     ]
   },
   {
-    title: "Software Engineer",
-    company: "StartupXYZ",
-    location: "Austin, TX",
-    duration: "2020 - 2022",
+    title: "Zeal College of Engineering and Research",
+    company: "Robotics and Automation Department",
+    location: "Pune",
+    duration: "2023 - 2024",
     type: "Full-time",
-    description: "Full-stack development of customer-facing applications serving 100k+ users. Built real-time analytics dashboard and payment processing system.",
-    technologies: ["React", "Python", "PostgreSQL", "Redis", "GraphQL"],
+    description: "Assistant Professor and lab in charge at Robotics and Automation  department.",
+    technologies: ["Python", "PostgreSQL", "MATLAB", "C++"],
     achievements: [
-      "Developed real-time analytics dashboard used by 500+ clients daily",
-      "Implemented secure payment processing system handling $2M+ monthly",
-      "Reduced customer support tickets by 30% through improved UX"
+      "Developed and implemented new curriculum for Robotics and Automation courses", 
     ]
   },
   {
-    title: "Frontend Developer",
-    company: "DigitalAgency",
-    location: "Remote",
-    duration: "2018 - 2020",
-    type: "Contract",
-    description: "Specialized in creating responsive web applications and optimizing performance. Worked with diverse clients across various industries.",
-    technologies: ["React", "Vue.js", "JavaScript", "Sass", "Webpack"],
+    title: "Rajiv Gandhi Coleege of engineering and Research",
+    company: "Electronics and telecommunication  department",
+    location: "Ahmednagar",
+    duration: "2015 - 2023",
+    type: "Full time",
+    description: "Assistant Professor and lab in charge at Electronics and Telecommunication department.",
+    technologies: ["c++", "Python", ],
     achievements: [
-      "Delivered 15+ client projects with 100% on-time completion rate",
-      "Improved website performance by 50% through optimization techniques",
-      "Built reusable component library adopted across multiple projects"
+      "helped and mentored students in their final year projects"
     ]
   },
   {
-    title: "Junior Developer",
-    company: "CodeStudio",
-    location: "Denver, CO",
-    duration: "2016 - 2018",
+    title: "Adsul Technical Campus ",
+    company: "Electronics and telecommunication  department",
+    location: "Ahmednagar ",
+    duration: "2012 - 2013",
     type: "Full-time",
-    description: "Started my career building web applications and learning industry best practices. Contributed to various client projects and internal tools.",
-    technologies: ["JavaScript", "HTML/CSS", "jQuery", "PHP", "MySQL"],
+    description: "Assistant Professor and lab in charge at Electronics and Telecommunication department.",
+    technologies: ["Python", "MySQL"],
     achievements: [
-      "Contributed to 10+ successful web application launches",
-      "Automated manual processes saving 10+ hours per week",
-      "Received 'Rising Star' award for exceptional growth and contribution"
+      "worked with other faculty from different departments to conduct events and internal hackathons",
     ]
   }
 ];
